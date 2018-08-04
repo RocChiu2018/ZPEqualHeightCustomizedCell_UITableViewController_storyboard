@@ -1,0 +1,2 @@
+# ZPEqualHeightCustomizedCell_UITableViewController_storyboard
+介绍如何在UITableViewController的storyboard文件中创建等高的cell。
