@@ -54,6 +54,9 @@
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
 {
+    /**
+     系统先从缓存池中去找带有特殊标识符的cell，如果没有找到的话就会去storyboard文件中的此视图控制器中去找，如果找到这个带有特殊标识符的自定义cell以后就会根据这个cell而创建新的自定义cell。
+     */
     NSString *ID = @"deal";
     
     ZPTableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:ID];
