@@ -6,6 +6,12 @@
 //  Copyright © 2016年 apple. All rights reserved.
 //
 
+/**
+ 有如下的三种方式来自定义UITableView控件的等高cell：
+ 1、用storyboard文件的方式来自定义等高的cell；
+ 2、用xib文件的方式来自定义等高的cell；
+ 3、用代码的方式来自定义等高的cell。
+ */
 #import "ZPTableViewController.h"
 #import "ZPDeal.h"
 #import "ZPTableViewCell.h"
