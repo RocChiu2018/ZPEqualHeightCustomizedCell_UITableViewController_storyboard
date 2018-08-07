@@ -11,6 +11,8 @@
  1、用storyboard文件的方式来自定义等高的cell；
  2、用xib文件的方式来自定义等高的cell；
  3、用代码的方式来自定义等高的cell。
+
+ MVC模式就是把model层、view层和controller层都分开。controller层的作用是承上启下的，在这个层中接收网络的数据，然后进行解析，把解析出来的字典传给model层，model层再进行封装，把封装后的对象传给controller层，controller层再把某个对象传递给view层，view层再把传递过来的对象的相关属性显示到屏幕上，总之是一个数据传递的过程。每个层之间通过对象的方式进行传递，这样就做到了最大程度上的解耦合。
  */
 #import "ZPTableViewController.h"
 #import "ZPDeal.h"
